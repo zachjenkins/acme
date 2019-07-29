@@ -75,12 +75,9 @@ namespace Acme.Functions
         }
 
         [FunctionName("WeatherDataCollectionTrigger")]
-        //public async Task TriggerCollection([TimerTrigger("0 */5 * * * *")] TimerInfo myTimer, ILogger log)
-        public async Task TriggerCollection([HttpTrigger(AuthorizationLevel.Function, "post", Route = "trigger")] HttpRequest req, ILogger log)
+        public async Task TriggerCollection([TimerTrigger("0 */30 * * * *")] TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"WeatherDataCollectionTrigger triggered at {DateTime.UtcNow}");
-
-            var zip = req.Query["Zip"].ToList().FirstOrDefault();
 
             var query = new GetRegistrations.Query();
 
