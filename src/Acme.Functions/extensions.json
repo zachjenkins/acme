@@ -1,0 +1,12 @@
+﻿{
+  "extensions": [
+    {
+      "name": "Startup",
+      "typeName": "Acme.Functions.Startup, Acme.Functions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "name": "ServiceBus",
+      "typeName": "Microsoft.Azure.WebJobs.ServiceBus.ServiceBusWebJobsStartup, Microsoft.Azure.WebJobs.ServiceBus, Version=3.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    }
+  ]
+}

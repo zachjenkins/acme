@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E599E1B4-CE5A-4CA0-A940-4E308372DAEF}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Domain", "src\Acme.Domain\Acme.Domain.csproj", "{EDF02A79-FC02-4178-85F3-25927F703CE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{301DBFAD-D3EB-4343-8951-9B56CE21DE6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Domain.Tests", "test\Acme.Domain.Tests\Acme.Domain.Tests.csproj", "{24425DA6-F084-4DD1-AB12-FD833B45E33D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Plugins.OpenWeatherMap", "src\Acme.Plugins.OpenWeatherMap\Acme.Plugins.OpenWeatherMap.csproj", "{51A52EA3-C695-4DDE-80F9-BB2030D58FED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{09218F93-1804-4059-8F84-EB73B09EF2F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BFF1483F-CF25-424C-BE1C-4EEAE8360209}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Infrastructure", "src\Acme.Infrastructure\Acme.Infrastructure.csproj", "{6D401B7D-4627-43CE-A4DD-2C4351E70C17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Functions", "src\Acme.Functions\Acme.Functions.csproj", "{8E9D84B6-6387-4DD9-98ED-71F58E773F2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.Functions.Tests", "test\Acme.Functions.Tests\Acme.Functions.Tests.csproj", "{002F9E18-71F6-42A3-A734-228FF60C5420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF02A79-FC02-4178-85F3-25927F703CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF02A79-FC02-4178-85F3-25927F703CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF02A79-FC02-4178-85F3-25927F703CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF02A79-FC02-4178-85F3-25927F703CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24425DA6-F084-4DD1-AB12-FD833B45E33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24425DA6-F084-4DD1-AB12-FD833B45E33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24425DA6-F084-4DD1-AB12-FD833B45E33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24425DA6-F084-4DD1-AB12-FD833B45E33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A52EA3-C695-4DDE-80F9-BB2030D58FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A52EA3-C695-4DDE-80F9-BB2030D58FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A52EA3-C695-4DDE-80F9-BB2030D58FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A52EA3-C695-4DDE-80F9-BB2030D58FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D401B7D-4627-43CE-A4DD-2C4351E70C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D401B7D-4627-43CE-A4DD-2C4351E70C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D401B7D-4627-43CE-A4DD-2C4351E70C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D401B7D-4627-43CE-A4DD-2C4351E70C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9D84B6-6387-4DD9-98ED-71F58E773F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9D84B6-6387-4DD9-98ED-71F58E773F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9D84B6-6387-4DD9-98ED-71F58E773F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9D84B6-6387-4DD9-98ED-71F58E773F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002F9E18-71F6-42A3-A734-228FF60C5420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002F9E18-71F6-42A3-A734-228FF60C5420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002F9E18-71F6-42A3-A734-228FF60C5420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002F9E18-71F6-42A3-A734-228FF60C5420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDF02A79-FC02-4178-85F3-25927F703CE9} = {301DBFAD-D3EB-4343-8951-9B56CE21DE6A}
+		{24425DA6-F084-4DD1-AB12-FD833B45E33D} = {BFF1483F-CF25-424C-BE1C-4EEAE8360209}
+		{51A52EA3-C695-4DDE-80F9-BB2030D58FED} = {09218F93-1804-4059-8F84-EB73B09EF2F6}
+		{6D401B7D-4627-43CE-A4DD-2C4351E70C17} = {301DBFAD-D3EB-4343-8951-9B56CE21DE6A}
+		{8E9D84B6-6387-4DD9-98ED-71F58E773F2A} = {301DBFAD-D3EB-4343-8951-9B56CE21DE6A}
+		{002F9E18-71F6-42A3-A734-228FF60C5420} = {BFF1483F-CF25-424C-BE1C-4EEAE8360209}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCDA00A3-E39F-4BFC-959E-068329AE6238}
+	EndGlobalSection
+EndGlobal
