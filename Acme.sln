@@ -5,6 +5,7 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E599E1B4-CE5A-4CA0-A940-4E308372DAEF}"
 	ProjectSection(SolutionItems) = preProject
+		Acme.postman_collection.json = Acme.postman_collection.json
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
@@ -25,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Infrastructure", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Functions", "src\Acme.Functions\Acme.Functions.csproj", "{8E9D84B6-6387-4DD9-98ED-71F58E773F2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.Functions.Tests", "test\Acme.Functions.Tests\Acme.Functions.Tests.csproj", "{002F9E18-71F6-42A3-A734-228FF60C5420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Functions.Tests", "test\Acme.Functions.Tests\Acme.Functions.Tests.csproj", "{002F9E18-71F6-42A3-A734-228FF60C5420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

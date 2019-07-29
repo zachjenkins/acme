@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "dd2ace89-94c7-4e5b-b776-ff234963927f",
+		"name": "Acme",
+		"description": "PostMan collection for interaction with the Acme serverless API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET - ACME - Outreach Recommendations",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://acmeoutreach.azurewebsites.net/api/outreachRecommendations?zipCodes=55401&code=awC0cM6xRVfNBj0lEcvgVpxFrIgJg45QMJnm10avatgBnePcz8QaVw==",
+					"protocol": "https",
+					"host": [
+						"acmeoutreach",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"outreachRecommendations"
+					],
+					"query": [
+						{
+							"key": "zipCodes",
+							"value": "55401"
+						},
+						{
+							"key": "code",
+							"value": "awC0cM6xRVfNBj0lEcvgVpxFrIgJg45QMJnm10avatgBnePcz8QaVw=="
+						}
+					]
+				},
+				"description": "Retrieves all the recommended outreach opportunities for a group of zip codes or cities"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - ACME - ZipCode Registrations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://acmeoutreach.azurewebsites.net/api/registrations?code=4DQNcqAyzFj32q5ZaS9H9a35W3ybwtdxnDwfB343mOQcW8ma6mb5Ew==",
+					"protocol": "https",
+					"host": [
+						"acmeoutreach",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"registrations"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "4DQNcqAyzFj32q5ZaS9H9a35W3ybwtdxnDwfB343mOQcW8ma6mb5Ew=="
+						}
+					]
+				},
+				"description": "Retrieves all the zip codes registered for data collection"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - OpenWeatherApi Forecast",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?APPID=d5479559ac8daf673dfd1da1489927a3&zip=55401,us",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "mode",
+							"value": "xml",
+							"disabled": true
+						},
+						{
+							"key": "APPID",
+							"value": "d5479559ac8daf673dfd1da1489927a3"
+						},
+						{
+							"key": "zip",
+							"value": "55401,us"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
